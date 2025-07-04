@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Corpo da página */
+/* Corpo página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -33,7 +33,7 @@ body {
     color: #fff;
 }
 
-/* Menu de navegação */
+/* Menu */
 #menu {
     display: flex;
     gap: 15px;
@@ -56,7 +56,7 @@ body {
 main {
     padding: 40px 20px;
     text-align: center;
-    padding-bottom: 100px; /* Isso garante que o conteúdo não fique atrás do rodapé fixo */
+    padding-bottom: 100px;
 }
 
 .img-post{
@@ -68,7 +68,6 @@ main {
 
 }
 
-/* Rodapé fixo no final da tela */
 footer {
     background-color: #333;
     color: white;
@@ -80,13 +79,11 @@ footer {
     width: 100%;
 }
 
-/* Centraliza só o título */
 .titulo-centralizado {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Alinha o conteúdo à esquerda e dá um espaçamento bonito */
 .conteudo-sobre {
     max-width: 800px;
     margin: 0 auto;
