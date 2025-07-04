@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+#logo h1 {
+    font-size: 24px;
+}
+
+#logo .white {
+    color: #fff;
+}
+
+/* Menu de navegação */
+#menu {
+    display: flex;
+    gap: 15px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background 0.3s ease;
+}
+
+#menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    padding-bottom: 100px; /* Isso garante que o conteúdo não fique atrás do rodapé fixo */
+}
+
+.img-post{
+    width: 620px;
+}
+
+.img-banner{
+    width: 800px;
+
+}
+
+/* Rodapé fixo no final da tela */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Centraliza só o título */
+.titulo-centralizado {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Alinha o conteúdo à esquerda e dá um espaçamento bonito */
+.conteudo-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.conteudo-sobre h3 {
+    margin-top: 25px;
+    color: #333;
+}
+
+.conteudo-sobre p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+ /* Formulário de Contato */
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-contato button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.formulario-contato button:hover {
+    background-color: #555;
+}
